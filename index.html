@@ -1,104 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>Portfolio</title>
-
-<body>
-
 <!-- This is the @head and it'll encompass our logo and nav bar -->
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Saralute home page.">
+    <meta name="author" content="Pako Kopeledi">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Saralute. - Home</title>
     <div>
         <table style = "width: 100%;" >
             <tr>
                 <td>
-                    <a href="#">
-                        <img src="assets/logos/abstract-paper-logo_1032-147.png" width="100px" alt="">
+                    <a href="index.html">
+                        <img src="assets/logos/letter-s.png" width="100px" alt="">
                     </a>
                 </td>
                 <td align="right">
-                    <nav style="margin-right: 50px; margin-top: 16px; margin-bottom: 16px; margin-left: 50px;">
+                    <!-- <h3 style="text-align: left;">Saralute</h3> -->
+                    <nav class="navBar" style="margin-right: 50px; margin-top: 16px; margin-bottom: 16px; margin-left: 50px;">
                         <a href="#" style="text-decoration: none;">Home</a>
-                        <a href="about_us.html" style="margin: 16px; text-decoration: none;">About Us</a>
-                        <a href="contact_us.html" style="text-decoration: none;">Contact Us</a>
+                        <a href="about_us.html" style="margin: 16px; text-decoration: none;">About Me</a>
+                        <a href="contact_us.html" style="text-decoration: none;">Contact</a>
                     </nav>
                 </td>
             </tr>
         </table>
     </div>
 </head>
-
+<body>
 <!-- This is the @main and it'll encompass all our content for landing page -->
-<main style="height: 100vh; background-color: antiquewhite;" >
-    <table style="width: 100%; height: 300px;">
-        <tr>
-            <td colspan="2">
-                <img src="assets/imgs/laptop-t2.jpg" width="100%" height="500px" alt="" style="object-fit: cover;">
-            </td>
-        </tr>
-        <tr>
-            <td style="padding-left: 20px; padding-top: 50px;" >
-                <h1>Pako</h1>
-                <h3>Hi There!</h3>
-                <p>My name is Pako from Kimberley, Northern Cape. A technology enthusiast by heart interested in all things related to tech.<br>
-                I initially wanted to study Game Development after completing my Grade 12, however that didn't quite work because of my results.<br>
-                I managed to qualify for and complete a diploma in IT however have never really had an opportunity to work in an software development enviroment <br> 
-                I have joined CodeTribe as I saw it as the perfect opportunity to get back into software development and kick start my career as a Developer :)  </p>
-            </td>
-            <td align="right" style="padding-right: 20px; padding-top: 30px; padding-bottom: 30px;">
-                <img src="assets/imgs/pexels-vojtech-okenka-399772.jpg" alt=""
-                        width="300px"
-                        height="270px"
-                        style="border-radius: 50%; object-fit: cover; border-color:whitesmoke">
-            </td>
-        </tr>
-    </table>
+<main style="height: 105vh; width:100%; background-color: antiquewhite;"  >
+
+   <div class="sara_name">
+    <h1><b>Saralute.</b></h1>
+    <h3><b>Software Solutions</b></h3>
+   </div>
+
+    <div class="hp_video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ia8arCDoxZ8?controls=0" title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         allowfullscreen></iframe>
+    </div>
+
+    <div class="bio_holder" >
+            <div class="bio_text">
+                <h1 >Hi There!</h1>
+                <h3 >Pako - Aspiring Developer</h3>
+                <p>My name is Pako from Kimberley, Northern Cape. A technology enthusiast by heart interested in all things related to tech.
+                I initially wanted to study Game Development after completing my Grade 12, however that didn't quite work out because of my results.
+                I managed to qualify for and complete a diploma in IT however have never really had an opportunity to work in an software development enviroment
+                I have joined CodeTribe as I saw it as the perfect opportunity to get back into software development and kick start my career as a Developer 🙂  </p>
+
+                <p>I started Saralute because first and foremost it has always been a dream since formally getting into the IT realm. 
+                Another reason, like many of my peers there are ideas we have which we want to bring to life. Thing is we want to do OUR way and not necessarily according
+                to 'Industry Standards'. I'm currently an army of one looking for like-minded individuals who believe in the vision here at Saralute. Saralute is for the people
+                and with that said is open to everyone irrespective of background, colour & culture or beliefs.</p>
+
+                <p>If you're passionate about coding and think you've got what it takes to join Saralute please feel free to <a class="sign_link" href="contact_us.html">Sign Up</a> and we'll be in touch. Alternatively
+                you can give me ring for inquiries about joing the army. Please don't be shy! REMEMBER, we all started somewhere! 😁 </p>
+            </div>
+
+            <div class="bio_img">
+                <img class="p_img"  src="assets/imgs/LT5xXcte_400x400.jpg" alt=""
+                        style="border-radius: 50%;" width="80px"; height="80px"; >
+            </div>
+    </div>
 </main>
 
 <!-- This is the @footer and it'll encompass all quick links on our website -->
 <footer>
-    <table style="width: 100%; height: 200px; background-color: burlywood; padding-bottom: 5px;">
-        <tr>
-            <td><b>KIRSTENHOF, KIMBERLEY, 8301</b></td>
-            <td align="right">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6997.182656717089!2d24.7359489!3d-28.731756849999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9b1a8d3fafdc4d%3A0xfe9a81d2d75a76d2!2sKirstenhof%2C%20Kimberley%2C%208301!5e0!3m2!1sen!2sza!4v1675768182857!5m2!1sen!2sza" 
-                width="350px" 
-                height="200px" 
-                style="border:0; border-radius: 10%;" 
-                allowfullscreen=""
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="www.facebok.com">
-                    <img src="assets/icons/facebook-circle-icon-vector-2.jpg" 
-                    alt="" 
-                    width="60px"
-                    height="70px" >
-                </a>
-            </td>
-            <td>
-                <a href="www.twitter.com">
-                    <img src="assets/icons/teitter-icon-24.jpg" 
-                    alt="" 
-                    width="60px"
-                    height="70px" 
-                    style="padding-right: 50px; padding-left: 50px;">
-                </a>
-            </td>
-            <td>
-                <a href="www.instagram.com">
-                    <img src="assets/icons/instagram-circle-icon-png-24.jpg" alt="" width="60px"
-                    height="70px">
-                </a>
-            </td>
-        </tr>
-    </table>
-</footer>
-
+    <div class="Footer_Details">
+        
+        <div>
+            <p><b>30 HODGSON ROAD</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b></p>
+            <a href="www.facebok.com">
+                <img src="assets/icons/facebook-circle-icon-vector-2.jpg" 
+                alt="" 
+                width="50px"
+                height="50px" 
+                style="padding-right: 55px;">
+    
+            </a>
+    
+            <a href="www.twitter.com">
+                <img src="assets/icons/teitter-icon-24.jpg" 
+                alt="" 
+                width="50px"
+                height="50px" 
+                style="padding-right: 55px;"
+            </a>
+    
+    
+            <a href="www.instagram.com">
+                <img src="assets/icons/instagram-circle-icon-png-24.jpg" alt="" 
+                width="50px"
+                height="50px">
+            </a>
+        </div>
+    
+        <div style="padding-right: 38px;" >
+            <p class="tel_no" style="font-size: large;"><b>TEL: 053 831 9876</b><br><br><b>
+                <p class = "rights"style="font-size: smaller;">COPYRIGHT&copy;  2023 BY PAKO KOPELEDI.<br> ALL RIGHTS RESERVED.</b></p>
+        </div>
+    
+        <div>
+    
+            <iframe align="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6997.182656717089!2d24.7359489!3d-28.731756849999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9b1a8d3fafdc4d%3A0xfe9a81d2d75a76d2!2sKirstenhof%2C%20Kimberley%2C%208301!5e0!3m2!1sen!2sza!4v1675768182857!5m2!1sen!2sza" 
+            width="350px" 
+            height="160px"  
+            style="border:0; border-radius: 10%; margin-top: 8px; margin-right: 10px;" 
+            allowfullscreen=""
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+    
+        </div>
+    </div>
+    </footer>
+    
 
 </body>
 </html>
+
 

@@ -1,0 +1,253 @@
+/*Font Family*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/*Text*/
+p{
+    background-color:burlywood;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h4 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h5 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h6 {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+label {
+    
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100px;
+    
+}
+
+button {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/*Home*/
+.p_img {
+    align-content: center;
+    width: 320px;
+    height: 380px;
+    margin-top: 95px;
+}
+
+.hp_video {
+        text-align: center;
+}
+
+.sara_name {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bio_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.bio_text {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+.bio_img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.sign_link:hover {
+    color:darkorange
+}
+.sign_link{
+    text-decoration: none;
+}
+
+
+
+/*Contact*/
+
+.input {
+}
+
+.form_c {
+    text-align: center;
+}
+
+
+
+.input::placeholder {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.textArea {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#submitBtn {
+    margin: auto 0;
+    background-color:rgba(65, 40, 9, 0.938);
+    color:burlywood;
+}
+
+.tLink {
+    align-content: flex-start ;
+}
+
+
+.form_c {
+    padding-left: 20px;
+}
+
+
+
+/* About Us */
+
+#boutUs {
+    text-align:center ;
+    padding-top: 10px;
+}
+
+.mainContainer {
+    
+}
+
+.iconImg {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+
+}
+
+.subject {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.prof {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.w_list {
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.in_head {
+    text-align: center;
+}
+
+.e_head {
+    text-align: center;
+}
+
+.for_head {
+    text-align: center;
+}
+
+.school {
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgba(65, 40, 9, 0.938);
+}
+
+.card {
+    overflow: auto;
+}
+
+
+
+
+
+
+.address {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navBar {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.td_fac {
+    margin-right: 0%;
+}
+
+
+.container_au {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card {
+    background-color: saddlebrown;
+    color: burlywood;
+    width: 3000px;
+    height: 550px;
+    margin: 10px;
+}
+
+.l_head {
+    text-align: center;
+}
+.p_head {
+    text-align: center;
+}
+.w_head {
+    text-align: center;
+}
+.ex_head {
+    text-align: center;
+}
+
+
+.Footer_Details{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    height: 180px;
+}
