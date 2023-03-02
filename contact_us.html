@@ -43,28 +43,31 @@ FEEL FREE TO PAY US A VISIT WEATHER YOU'RE TRYING TO GET A QUOTE <br> OR JUST AS
 
 
 <div >
-    <form class="form_c">
-        <h2 style="text-align: center;"><b>Sign up below to recieve special offers</b></h2><br>
-        <label for="text" style="padding: 10px; display: inline-block;"  ><b>FIRST NAME:  </b> </label>
-        <input class="input" type="text" placeholder="First Name" size="60"><br>
+    <form class="form_c" action="https://formspree.io/f/mnqydzdy" method="POST">
+        <h2 name="Heading" style="text-align: center;"><b>Sign up below to recieve special offers</b></h2><br>
+        <label name="fNmae" for="text" style="padding: 10px; display: inline-block;"  ><b>FIRST NAME:  </b> </label>
+        <input class="input" name="First Name" type="text" placeholder="First Name" size="60" required><br>
 
-        <label for="text" style="padding: 10px; display: inline-block;"  ><b>LAST NAME:  </b> </label>
-        <input class="input" type="text" placeholder="Last Name" size="60"><br>
+        <label for="text" name="lName"  style="padding: 10px; display: inline-block;"  ><b>LAST NAME:  </b> </label>
+        <input class="input" name="Last Name"  type="text" placeholder="Last Name" size="60" required><br>
 
-        <label for="text" style="padding: 10px; display: inline-block;"  ><b>EMAIL:  </b> </label>
-        <input class="input" type="text" placeholder="Email" size="60"><br>
-        <label for="text" style="padding: 10px; display: inline-block;"><b>CONFIRM EMAIL:</b> </label>
-        <input class="input" type="email" placeholder="Confirm Email" size="60"><br><br>
+        <label for="text" name="Email" style="padding: 10px; display: inline-block;"  ><b>EMAIL:  </b> </label>
+        <input class="input" name="Email"  type="text" placeholder="Email" size="60" required><br>
 
-        <label for="text" style="padding: 10px; display: inline-block;"><b>MESSAGE: </b></label>
-        <textarea class="textArea" name="" 
+        <label for="text" name="Confirm Email" style="padding: 10px; display: inline-block;"><b>CONFIRM EMAIL:</b> </label>
+        <input class="input" name="Confirm Mail" type="email" placeholder="Confirm Email" size="60" required><br><br>
+
+        <label for="text" name="Message" style="padding: 10px; display: inline-block;"><b>MESSAGE: </b></label>
+        <textarea class="textArea" name="Message" 
         id="" 
         cols="80" 
         rows="10" 
-        placeholder="Please share your thoughts, we appreciate the feedback!"></textarea><br>
+        placeholder="Please share your thoughts, want to fix what you don't like!" required></textarea><br>
 
         <div class="btnHolder">
-            <button id="submitBtn" style="width: 200px; height: 30px;">Sign Up</button>
+            <a href="">
+                <button id="submitBtn" name="Submit" type="submit" style="width: 200px; height: 30px;">Sign Up</button>
+            </a>
         </div>
     </form>
 </div>
@@ -96,8 +99,8 @@ FEEL FREE TO PAY US A VISIT WEATHER YOU'RE TRYING TO GET A QUOTE <br> OR JUST AS
 <div class="Footer_Details">
     
     <div>
-        <p><b>30 HODGSON ROAD</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b></p>
-        <a href="www.facebok.com">
+        <p id="h_address"></p>
+        <a href="https://ne-np.facebook.com/pakoledi" target="_blank">
             <img src="assets/icons/facebook-circle-icon-vector-2.jpg" 
             alt="" 
             width="50px"
@@ -106,16 +109,17 @@ FEEL FREE TO PAY US A VISIT WEATHER YOU'RE TRYING TO GET A QUOTE <br> OR JUST AS
 
         </a>
 
-        <a href="www.twitter.com">
-            <img src="assets/icons/teitter-icon-24.jpg" 
+        <a href="https://twitter.com/PKopeledi" target="_blank">
+            <img src="assets/icons/teitter-icon-24.jpg"
             alt="" 
             width="50px"
+            target=""
             height="50px" 
-            style="padding-right: 55px;"
+            style="padding-right: 55px;">
         </a>
 
 
-        <a href="www.instagram.com">
+        <a href="https://www.instagram.com/_p4ko/" target="_blank">
             <img src="assets/icons/instagram-circle-icon-png-24.jpg" alt="" 
             width="50px"
             height="50px">
@@ -141,6 +145,15 @@ FEEL FREE TO PAY US A VISIT WEATHER YOU'RE TRYING TO GET A QUOTE <br> OR JUST AS
     </div>
 </div>
 </footer>
+
+    <script>
+         let homeAddress = "<b>30 HODGSON ROAD,</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b>";
+        document.getElementById('h_address').innerHTML = homeAddress;
+
+        let homeTel = "<b>TEL: 053 831 9876</b><br><br><b>"
+        document.getElementById('tel_no').innerHTML = homeTel;
+         </script>
+    </script>
 
 </body>
 </html>

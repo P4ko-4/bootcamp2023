@@ -10,6 +10,10 @@ p{
     padding: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
+div {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 h1 {
     font-weight: 500;
@@ -27,6 +31,7 @@ h3 {
 h4 {
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 h5 {
     font-weight: 500;
@@ -107,9 +112,17 @@ button {
 
 /*Contact*/
 
-.input {
+.input:focus-within{
+    outline: none;
+    border-color: orange;
+    border-width: 3px;
 }
 
+.textArea:focus-within{
+    outline: none;
+    border-color: orange;
+    border-width: 3px;
+}
 .form_c {
     text-align: center;
 }
@@ -131,6 +144,13 @@ button {
     background-color:rgba(65, 40, 9, 0.938);
     color:burlywood;
 }
+#submitBtn:hover {
+    opacity: 90%;
+    cursor: pointer;
+    color: rgb(253, 114, 0);
+}
+
+
 
 .tLink {
     align-content: flex-start ;
@@ -140,7 +160,6 @@ button {
 .form_c {
     padding-left: 20px;
 }
-
 
 
 /* About Us */
@@ -250,4 +269,13 @@ button {
     justify-content: space-between;
     background-color: burlywood;
     height: 180px;
+}
+
+
+
+
+/*IDs for vars*/
+#h_title {
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
 }

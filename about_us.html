@@ -8,7 +8,18 @@
     <meta name="description" content="Saralute about page.">
     <meta name="author" content="Pako Kopeledi">
     <link rel="stylesheet" href="style.css">
-    <div>
+   
+
+
+    <script href="./script.js">
+
+    </script>
+</head>
+
+<body id="body_au">
+
+
+     <div>
         <table style = "width: 100%;" >
             <tr>
                 <td>
@@ -26,9 +37,6 @@
             </tr>
         </table>
     </div>
-</head>
-
-<body id="body_au">
 
 <!-- This is the @head and it'll encompass our logo and nav bar -->
 
@@ -36,7 +44,7 @@
 <!-- This is the @main and it'll encompass all our content for landing page -->
 <main class="mainContainer" style="background-color: antiquewhite;" >
     <div id="boutUs">
-        <h1 >About Me</h1>
+        <h1 >About Me </h1> </h1>
         <br>
         <h3> MISSION IS TO SPECIALIZE IN ALL KINDS OF DIFFERENT SOFTWARE SOLUTIONS INCLUDING</h3>
         <h5>MOBILE DEVELOPMENT</h5>
@@ -47,16 +55,30 @@
     </div>
 
 
-
+    
 
     <section class = container_au>
         <div class = card>
-            <div class="card_icons ed-icon">
+            <div  class="card_icons ed-icon">
             </div>
             <h2 class="l_head">Languages</h2>
-            <p class="p_head">Programing Languages</p> 
-            <table>
-                <tr>
+            <p class="p_head">Programing Languages</p>
+            
+            <div id="card">
+                <!-- <table >
+                     <tr>
+                        
+                        <td>Language</td>
+                        <td rowspan="2">
+                            <img src='' alt='' style='width:100px; height: 100px; border-radius: 20%;'/>
+                        </td>
+                    </tr>
+                    <tr><td>Level:</td></tr> -->
+                <!-- </table> --> 
+            </div>
+        </div>
+            <!-- <table> -->
+                <!-- <tr>
                     <td rowspan="2">
                         <img src="assets/icons/html.png" alt="" class="iconImg">
                     </td>
@@ -128,7 +150,7 @@
 
                 <tr>
                     <td rowspan="2">
-                        <img src="assets/icons/database.png" alt="" class="iconImg">
+                        <img src='assets/icons/database.png' alt="" class="iconImg">
                     </td>
                     <td>
                         <h3 class = "subject">MS SQL SERVER</h3>
@@ -139,52 +161,43 @@
                         <h5 class="prof">LEVEL 4 / 10</h5>
                     </td>
                 </tr>
-            </table>
-        </div>
+            </table> -->
+       
+
+
 
 
 
         <div class = card>
-            <div class="card_icons">
-            </div>
+            
+
             <h2 class="w_head">Work Experience</h2>
             <p class="ex_head">Tech-Related</p> 
 
-            <ul class="w_list">
-                <li> <h4 class="in_head">2018 - 2019 - IT Intern</h4>
-                Daily I'd assist fellow employees with network, hardware & software related queries. 
-                <br><br> Duties mentioned above were also performed telephonically by guiding users on how to resolve
-            their respective queries  </li>
-
-                <li> <h4 class="in_head">2019 - 2021 - IT Field Officer</h4> 
-                Perfom system administrative tasks for PAAB (Patient Administration And Billing) which is a system used by
-                hospitals throughout the N.Cape to capture incomming patients.<br>
-                <br>Conduct training for new existing users on new features.
-                <br><br>Perform preventative maintenance for clients around the province </li>
-
-                <li><h4 class="in_head">Projects</h4></li>
-                As far as projects, While I was at school we had 2 software projects in my final year. I unfortunately hadn't saved them to a cloud based storage and lost the code due to theft,
-                 however, deternmined to build the projects again.<br><br>
-                1. Point Of Sale System - We built this project using C#, MS SQL Server and incorporating 3-tier architecture. <br><br>
-                2. African Dictionary - We built this using Java(Android Studio) and MongoDB for data storage.
-            </ul>
+            <div id="experience">
+                
+            </div> 
         </div>
 
+        
         <div class = card>
             <div class="card_icons">
             </div>
             <h2 class="e_head">Education</h2>
             <p class="for_head">Formal</p> 
 
-            <ul class="w_list">
+            <div id="school">
+
+            </div>
+
+            <!-- <ul class="w_list">
                 <li> <h4 class="in_head">2001- 2007 - Kimberley Junior School</h4>
                 <p class="school">Primary School</p>
                 <li> <h4 class="in_head">2008- 2012 - Technincal High School</h4>
                     <p class="school">High School</p>
                     <li> <h4 class="in_head">2013- 2017 - Central University of Technology, Free State</h4>
-                        <p class="school">Tertiary</p>
+                        <p class="school">Tertiary</p> -->
             
-            </ul>
         </div>
     </section> 
 
@@ -198,8 +211,8 @@
     <div class="Footer_Details">
         
         <div>
-            <p><b>30 HODGSON ROAD</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b></p>
-            <a href="www.facebok.com">
+            <p id="h_address"></p>
+            <a href="https://ne-np.facebook.com/pakoledi" target="_blank">
                 <img src="assets/icons/facebook-circle-icon-vector-2.jpg" 
                 alt="" 
                 width="50px"
@@ -208,16 +221,17 @@
     
             </a>
     
-            <a href="www.twitter.com">
-                <img src="assets/icons/teitter-icon-24.jpg" 
+            <a href="https://twitter.com/PKopeledi" target="_blank">
+                <img src="assets/icons/teitter-icon-24.jpg"
                 alt="" 
                 width="50px"
+                target=""
                 height="50px" 
-                style="padding-right: 55px;"
+                style="padding-right: 55px;">
             </a>
     
     
-            <a href="www.instagram.com">
+            <a href="https://www.instagram.com/_p4ko/" target="_blank">
                 <img src="assets/icons/instagram-circle-icon-png-24.jpg" alt="" 
                 width="50px"
                 height="50px">
@@ -244,6 +258,80 @@
     </div>
     </footer>
     
+    <script >
+
+
+
+        //Education
+        let sgeList = [{item:"<li><p class='school'>Primary School</p><h4 class='in_head'>2001- 2007 - Kimberley Junior School</h4>"}, 
+            {item:"<li> <p class='school'>High School</p><h4>2008- 2012 - Technincal High School</h4>"}, 
+                {item:"<li> <p class='school'>Tertiary</p><h4 class='in_head'>2013- 2017 - Central University of Technology, Free State</h4>"}];
+
+
+        let schoolUl = "<ul style='list-style-type:none;'>";
+        for(let i = 0; i < sgeList.length; i++) {
+            console.log(sgeList[i].item);
+            schoolUl += "<li>" + sgeList[i].item + "</li>";
+        }
+
+        schoolUl += "</ul>";
+        document.getElementById('school').innerHTML = schoolUl;
+
+
+
+
+
+        // Work Experience
+        let expList = [{item:"<h4>2018 - 2019 - IT Intern</h4> Daily I'd assist fellow employees with network, hardware & software related queries."  
+            + '<br><br>' + "Duties mentioned above were also performed telephonically by guiding users on how to resolve"
+       + "their respective queries"},
+      {item: " <h4>2019 - 2021 - IT Field Officer</h4>Perfom system administrative tasks for PAAB (Patient Administration And Billing) which is a system used by"
+       + " hospitals throughout the N.Cape to capture incomming patients.<br>"
+       + "<br>Conduct training for new existing users on new features."
+       + "<br><br>Perform preventative maintenance for clients around the province"},
+
+       {item:"<h4 style='text-alignment:center';>Projects</h4> As far as projects, While I was at school we had 2 software projects in my final year. I unfortunately hadn't saved them to a cloud based storage and lost the code due to theft,"
+       + "however, deternmined to build the projects again.<br><br>"
+       + "1. Point Of Sale System - We built this project using C#, MS SQL Server and incorporating 3-tier architecture. <br><br>"
+       + "2. African Dictionary - We built this using Java(Android Studio) and MongoDB for data storage.</p>"}];
+       
+
+       let workUl = "<ul style='list-style-type: none'; >" ;
+       for(let i = 0; i < expList.length; i++) {
+        console.log(expList[i].item);
+        workUl += "<li>" + expList[i].item + " </li>";
+        
+       }
+
+       workUl += "</ul>";
+       document.getElementById('experience').innerHTML = workUl;
+
+
+
+
+
+
+
+       //Programming Languages
+       let proLang = [{item:"HTML", level: 'LEVEL: 4/5' , img:'assets/icons/html.png'}
+       ,{item: "CSS", level: 'LEVEL: 3/5', img: 'assets/icons/css-3.png'}, 
+       {item:"JavaScript", level: 'LEVEL: 2/5', img:'assets/icons/js.png'},
+        {item:"Android", level: 'LEVEL: 3/5', img:'assets/icons/android.png'},
+        {item:"C#", level: 'LEVEL: 2/5', img:'assets/icons/c-sharp.png'},
+        {item:"MS SQL SERVER", level: 'LEVEL: 2/5', img:'assets/icons/database.png'}];
+
+       let proList = "<table >";
+       for(let i = 0; i < proLang.length; i++) {
+        console.log(proLang[i].item);
+        proList += "<tr width=30%; ><td rowspan = '3' style='width:250px'; > " + "<img src='"
+            + proLang[i].img 
+            + "' alt='' style='width:100px; height: 100px; object-fit: cover; border-radius: 20%; margin:20px'/><tr><td>"+ proLang[i].item +"</td></tr><tr><td>" + proLang[i].level + "<td></tr></td></tr>";
+       }
+       proList += "</table>";
+       document.getElementById('card').innerHTML = proList;
+    </script>
+
+   
 
 </body>
 </html>

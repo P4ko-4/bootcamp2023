@@ -47,19 +47,8 @@
     <div class="bio_holder" >
             <div class="bio_text">
                 <h1 >Hi There!</h1>
-                <h3 >Pako - Aspiring Developer</h3>
-                <p>My name is Pako from Kimberley, Northern Cape. A technology enthusiast by heart interested in all things related to tech.
-                I initially wanted to study Game Development after completing my Grade 12, however that didn't quite work out because of my results.
-                I managed to qualify for and complete a diploma in IT however have never really had an opportunity to work in an software development enviroment
-                I have joined CodeTribe as I saw it as the perfect opportunity to get back into software development and kick start my career as a Developer 🙂  </p>
-
-                <p>I started Saralute because first and foremost it has always been a dream since formally getting into the IT realm. 
-                Another reason, like many of my peers there are ideas we have which we want to bring to life. Thing is we want to do OUR way and not necessarily according
-                to 'Industry Standards'. I'm currently an army of one looking for like-minded individuals who believe in the vision here at Saralute. Saralute is for the people
-                and with that said is open to everyone irrespective of background, colour & culture or beliefs.</p>
-
-                <p>If you're passionate about coding and think you've got what it takes to join Saralute please feel free to <a class="sign_link" href="contact_us.html">Sign Up</a> and we'll be in touch. Alternatively
-                you can give me ring for inquiries about joing the army. Please don't be shy! REMEMBER, we all started somewhere! 😁 </p>
+                <h3 id="h_title"></h3>
+                <p id="h_bio"></p>
             </div>
 
             <div class="bio_img">
@@ -74,8 +63,8 @@
     <div class="Footer_Details">
         
         <div>
-            <p><b>30 HODGSON ROAD</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b></p>
-            <a href="www.facebok.com">
+            <p id="h_address"></p>
+            <a href="https://ne-np.facebook.com/pakoledi" target="_blank">
                 <img src="assets/icons/facebook-circle-icon-vector-2.jpg" 
                 alt="" 
                 width="50px"
@@ -84,16 +73,17 @@
     
             </a>
     
-            <a href="www.twitter.com">
-                <img src="assets/icons/teitter-icon-24.jpg" 
+            <a href="https://twitter.com/PKopeledi" target="_blank">
+                <img src="assets/icons/teitter-icon-24.jpg"
                 alt="" 
                 width="50px"
+                target=""
                 height="50px" 
-                style="padding-right: 55px;"
+                style="padding-right: 55px;">
             </a>
     
     
-            <a href="www.instagram.com">
+            <a href="https://www.instagram.com/_p4ko/" target="_blank">
                 <img src="assets/icons/instagram-circle-icon-png-24.jpg" alt="" 
                 width="50px"
                 height="50px">
@@ -101,7 +91,7 @@
         </div>
     
         <div style="padding-right: 38px;" >
-            <p class="tel_no" style="font-size: large;"><b>TEL: 053 831 9876</b><br><br><b>
+            <p id="tel_no" style="font-size: large;">
                 <p class = "rights"style="font-size: smaller;">COPYRIGHT&copy;  2023 BY PAKO KOPELEDI.<br> ALL RIGHTS RESERVED.</b></p>
         </div>
     
@@ -119,9 +109,43 @@
         </div>
     </div>
     </footer>
-    
+
+    <script href="./script.js">
+        let homeTitle = "Pako - Aspiring Developer";
+        document.getElementById('h_title').innerHTML = homeTitle;
+
+        let homeBio = "My name is Pako from Kimberley, Northern Cape. A technology enthusiast by heart interested in all things related to tech." +
+        " I initially wanted to study Game Development after completing my Grade 12, however that didn't quite work out because of my results." + 
+        " I managed to qualify for and complete a diploma in IT however have never really had an opportunity to work in an software development enviroment" + 
+        " I have joined CodeTribe as I saw it as the perfect opportunity to get back into software development and kick start my career as a Developer 🙂 <br><br>" + 
+        " I started Saralute because first and foremost it has always been a dream since formally getting into the IT realm. " + 
+        " Another reason, like many of my peers there are ideas we have which we want to bring to life. Thing is we want to do OUR way and not necessarily according" + 
+        " to 'Industry Standards'. I'm currently an army of one looking for like-minded individuals who believe in the vision here at Saralute. Saralute is for the people" + 
+        " and with that said is open to everyone irrespective of background, colour & culture or beliefs.<br><br>" + 
+        " If you're passionate about coding and think you've got what it takes to join Saralute please feel free to Sign Up and we'll be in touch. Alternatively" + 
+        "you can give me ring for inquiries about joing the army. Please don't be shy! REMEMBER, we all started somewhere! 😁"
+         document.getElementById('h_bio').innerHTML = homeBio;
+
+         let homeAddress = "<b>30 HODGSON ROAD,</b><br><b>KIRSTENHOF,<br> KIMBERLEY,<br> 8301</b>";
+        document.getElementById('h_address').innerHTML = homeAddress;
+
+        let homeTel = "<b>TEL: 053 831 9876</b><br><br><b>"
+        document.getElementById('tel_no').innerHTML = homeTel;
+         </script>
 
 </body>
 </html>
 
 
+"" 
+"" 
+"" 
+
+"" 
+" " 
+"" 
+"" 
+
+"" 
+""
+</script>
